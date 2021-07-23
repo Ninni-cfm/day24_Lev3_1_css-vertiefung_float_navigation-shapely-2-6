@@ -13,7 +13,6 @@
     * li > float:left
 
 */
-
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 
 * {
@@ -31,7 +30,6 @@ a {
 #nav-wrapper {
     min-height: 76px;
 }
-
 .logo {
     float: left;
     color: #666;
@@ -40,17 +38,11 @@ a {
 .logo:hover {
     color: #333;
 }
-
 ul {
     list-style: none;
     float: right;
     min-width: 80%;
 }
-
-li:first-of-type {
-    /* clear: both; */
-}
-
 li {
     float: right;
     padding: 28px 3%;
