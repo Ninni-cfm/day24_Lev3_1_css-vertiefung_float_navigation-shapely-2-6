@@ -1,0 +1,63 @@
+/*
+    Aufgabenstellung
+
+    Font-family:"Raleway"
+    Headerhöhe:76px
+    Logofarbe: #666
+    Logofarbe in hover: #333
+    Menüfarbe: #333 
+    Menüfarbe in hover: #337ab7
+
+    Du kannst die CSS-Eigenschaft “float” benutzen:
+    * ul > float:right
+    * li > float:left
+
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+}
+a {
+    text-decoration: none;
+}
+
+#nav-wrapper {
+    min-height: 76px;
+}
+
+.logo {
+    float: left;
+    color: #666;
+    padding: 28px 3% 29px;
+}
+.logo:hover {
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    float: right;
+    min-width: 80%;
+}
+
+li:first-of-type {
+    /* clear: both; */
+}
+
+li {
+    float: right;
+    padding: 28px 3%;
+}
+li > a {
+    color: #333;
+}
+li > a:hover {
+    color: #337ab7;
+}
